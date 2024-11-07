@@ -14,4 +14,4 @@ describe('Sample Tests', () => {
     cy.get('h2').should('contain.text', 'Secure Area')
     cy.get('a.button[href="/logout"]').should('be.visible')
   })
-})
+});
