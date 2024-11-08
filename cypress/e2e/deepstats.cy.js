@@ -17,5 +17,6 @@ describe('My First Test', () => {
       cy.get('.personal-rec-info:first-child').click();
       cy.get('.ref-link').trigger('mouseover');
       cy.get('.min-table-col main:first-child').click();
+      
        })
   });
